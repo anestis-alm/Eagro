@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eagro", "eagro\eagro.csproj", "{677E99FC-AA8F-449B-99CF-4AB6F19C7D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagroMVC", "EagroMVC\EagroMVC.csproj", "{8DCE2A3E-C457-42AA-AD4C-D7B5AC7961D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677E99FC-AA8F-449B-99CF-4AB6F19C7D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677E99FC-AA8F-449B-99CF-4AB6F19C7D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677E99FC-AA8F-449B-99CF-4AB6F19C7D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677E99FC-AA8F-449B-99CF-4AB6F19C7D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCE2A3E-C457-42AA-AD4C-D7B5AC7961D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCE2A3E-C457-42AA-AD4C-D7B5AC7961D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCE2A3E-C457-42AA-AD4C-D7B5AC7961D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCE2A3E-C457-42AA-AD4C-D7B5AC7961D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3A309A8-76BA-4403-8831-A84C718E188B}
+	EndGlobalSection
+EndGlobal

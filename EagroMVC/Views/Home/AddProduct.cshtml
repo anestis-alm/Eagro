@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container d-flex justify-content-center">
+    <div class="addproduct-content">
+        <form id="addproduct-form" class="addproduct-form">
+            <div class="form-group">
+                <h1>Add a new Product to the Store!</h1>
+            </div>
+            <div class="form-group">
+                <label class="label">Product Name</label>
+                <input type="text" class="form-control" id="prName" name="prName" placeholder="Your Product Name" required="required">
+            </div>
+
+            <div class="form-group">
+                <label class="label">Description</label>
+                <input type="text" class="form-control" name="Description" id="Description" placeholder="Product Description" required="required" />
+            </div>
+
+            <div class="form-group">
+                <label class="label">Price</label>
+                <input type="number" class="form-control"  step="any" name="Price" id="Price" placeholder="Product price per kilo" required="required" />
+            </div>
+
+            <div class="form-group">
+                <label class="label">Category</label>
+                <input type="text" class="form-control" name="Category" id="Category" placeholder="Product Category" required="required" />
+            </div>
+
+            <div class="form-group">
+                <label class="label">Quantity</label>
+                <input type="number" class="form-control" step="any" name="Quantity" id="Quantity" placeholder="Product Quantity" required="required" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="ADD PRODUCT" />
+            </div>
+
+            <div class="form-group">
+                <div id="responseDiv"></div>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+}
